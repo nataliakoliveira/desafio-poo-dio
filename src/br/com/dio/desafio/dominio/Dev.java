@@ -46,7 +46,7 @@ public class Dev {
         this.nome = nome;
     }
 
-    public Set<Conteudo> getConteudosInscritos() {
+    public Set<Conteudo> getInscritos() {
         return conteudosInscritos;
     }
 
@@ -54,7 +54,7 @@ public class Dev {
         this.conteudosInscritos = conteudosInscritos;
     }
 
-    public Set<Conteudo> getConteudosConcluidos() {
+    public Set<Conteudo> getConcluidos() {
         return conteudosConcluidos;
     }
 
